@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 0 3px 0px;
+    background-color: rgb(223, 223, 223);
+}
+
+button {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background-color: darkgreen;
+}
+
+#decrement-btn {
+    background-color: darkred;
+}
