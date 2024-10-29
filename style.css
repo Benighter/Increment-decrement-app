@@ -35,6 +35,10 @@ button {
     background-color: darkgreen;
 }
 
-#decrement-btn {
+#reset-btn {
     background-color: darkred;
+}
+
+#decrement-btn {
+    background-color: darkorange;
 }
